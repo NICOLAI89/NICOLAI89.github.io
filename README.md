@@ -1,5 +1,7 @@
 # Proyecto Final Integrador - Página de Venta de Bots de Trading
 
+Alumno: Nicolás Guillermo Mouriño
+
 Esta es una página web desarrollada como pre-entrega del Proyecto Final para el curso de Front End con JavaScript.
 
 El sitio presenta una estructura básica utilizando HTML semántico y CSS, incluyendo:
