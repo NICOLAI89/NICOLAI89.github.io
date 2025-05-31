@@ -228,3 +228,7 @@ footer {
     fill: white;
 }
 
+/* Efecto de scrolling mas suave para cuando nos volvemos al top */
+html {
+    scroll-behavior: smooth;
+}
