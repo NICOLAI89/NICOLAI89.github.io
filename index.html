@@ -1,170 +1,92 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width,
-initial-scale=1.0">
- <title>Mi Primer Proyecto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bots de Trading Automatizados</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
- <h1>Bienvenidos a Mi Proyecto</h1>
- <h2>Este es un subtítulo en el header</h2>
-</header>
-<nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#productos">Productos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-</nav>
-<main>
 
-     <section id="inicio">
-        <h2>Inicio</h2>
-        <p>Bienvenido a nuestra página de ejemplo.</p>
-    </section>
-    
- <p>Este es un párrafo de introducción sobre el proyecto. Aquí podés
-usar <strong>negrita</strong>, <em>cursiva</em>, y <s>tachado</s>.</p>
+    <header>
+        <h1>Bots de Trading Automatizados - NGM</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<ol>
- <li>Encender la computadora</li>
- <li>Abrir el navegador</li>
- <li>Acceder al sitio web</li>
-</ol>
+    <main id="inicio">
+        <section class="hero">
+            <h2>Automatizá tu trading, maximizá tus ganancias</h2>
+            <p>Con nuestros bots de última generación, tus inversiones trabajan por vos 24/7.</p>
+            <img src="img/bot1.jpg" alt="Bot de Trading" />
+        </section>
 
-<dl>
- <dt>HTML</dt>
- <dd>Lenguaje de marcado utilizado para estructurar contenido en la
-web.</dd>
- <dt>CSS</dt>
- <dd>Lenguaje utilizado para aplicar estilos y diseño a las páginas
-web.</dd>
- <dt>JavaScript</dt>
- <dd>Lenguaje de programación utilizado para añadir interactividad a
-las páginas web.</dd>
-</dl>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-container">
+                <div class="card">
+                    <img src="img/bot2.jpg" alt="Bot Scalper">
+                    <h3>Bot Scalper Pro</h3>
+                    <p>Optimizado para operaciones rápidas y efectivas en mercados volátiles.</p>
+                </div>
+                <div class="card">
+                    <img src="img/bot3.jpg" alt="Bot Swing">
+                    <h3>Bot Swing Master</h3>
+                    <p>Perfecto para inversores que buscan maximizar beneficios en tendencias a mediano plazo.</p>
+                </div>
+                <div class="card">
+                    <img src="img/bot1.jpg" alt="Bot IA">
+                    <h3>Bot AI Trader</h3>
+                    <p>Impulsado por inteligencia artificial para decisiones de trading automatizadas.</p>
+                </div>
+            </div>
+        </section>
 
-<a href="https://www.google.com.ar">Visita gOOGLE</a>
+        <section id="resenas">
+            <h2>Reseñas</h2>
+            <div class="resenas-grid">
+                <div class="resena">
+                    <p>"El bot Scalper Pro duplicó mi inversión en 6 meses. ¡Increíble!"</p>
+                    <strong>- Juan Pérez</strong>
+                </div>
+                <div class="resena">
+                    <p>"Nunca fue tan fácil generar ingresos pasivos, el AI Trader es una joya."</p>
+                    <strong>- Laura Gómez</strong>
+                </div>
+                <div class="resena">
+                    <p>"Me encanta cómo Swing Master identifica tendencias, superó mis expectativas."</p>
+                    <strong>- Martín López</strong>
+                </div>
+            </div>
+        </section>
 
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/xjkwnjad" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
 
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
 
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
 
-<img src="images/programando.png" alt="Descripción de la imagen"  >
-<audio controls>
- <source src="mp3/whatislove.mp3" type="audio/mpeg">
- Tu navegador no soporta la reproducción de audio.
-</audio>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; 2025 Bots de Trading Automatizados - NGM. Todos los derechos reservados.</p>
+    </footer>
 
-
-
-<div>
-    <h2>Título dentro de un div</h2>
-    <p>Texto dentro del mismo contenedor.</p>
-
-<video controls poster="images/roxbury.png" width="600" height="400">
- <source src="video/whatislove.mp4" type="video/mp4">
- Tu navegador no soporta la reproducción de video.
-</video>
-</div>
-
-
-
-<!-- Comento el video de youtube ya que lo inserté arriba en formato mp4 
-<iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/JI2cPGVJ4qw" 
-        title="A Night at the Roxbury (1998) Wedding Scene &quot;Haddaway - What Is Love&quot;" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
-</iframe>
--->
-
-
-
-    <section id="productos">
-        <h2>Productos</h2>
-        <p>Aquí verás una lista de productos.</p>
-    </section>
-
-
-
-<table>
- <tr>
- <th>Nombre</th>
- <th>Edad</th>
- <th>Ciudad</th>
- </tr>
- <tr>
- <td>Ana</td>
- <td>25</td>
- <td>Madrid</td>
- </tr>
- <tr>
- <td>Juan</td>
- <td>30</td>
- <td>Barcelona</td>
- </tr>
- </table>
-
-     <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puedes contactarnos completando el formulario. </p>
-<form action="https://formspree.io/f/xjkwnjad" method="POST">
- <p>
-    <label for="nombre">Nombre:</label>
-    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu
-nombre">
-</p>
-<p>
-<label for="email">email:</label>
-
- <input type="email" name="email" id="email" placeholder="Escribe tu
-email">
-</p>
-<p>
-<label for="mensaje">mensaje:</label>
- <textarea name="mensaje" id="mensaje" rows="3" cols="20"
-placeholder="Escribe tu mensaje"></textarea>
-</p> 
-<div>
-<select name="opciones">
- <option value="opcion1">Opción 1</option>
- <option value="opcion2">Opción 2</option>
-</select>
-</div>
-<button type="submit">Enviar</button>
-
-</form>
-    </section>
-
-<!-- 
-<table>
- <tr>
- <th rowspan="2">Nombre</th>
- <th colspan="2">Contacto</th>
- </tr>
- <tr>
- <td>Teléfono</td>
- <td>Email</td>
- </tr>
- <tr>
- <td>Ana</td>
- <td>123456789</td>
- <td>ana@ejemplo.com</td>
- </tr>
- </table>
--->
-<!-- Este es un comentario en HTML 
-width="600"
-height="400"
--->
-
-</main>
-<footer>
- <p>Este es el pie de página con la información de contacto.</p>
-</footer>
 </body>
 </html>
