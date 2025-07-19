@@ -1,4 +1,5 @@
-const URL_API = "https://fakestoreapi.com/products";
+// const URL_API = "https://fakestoreapi.com/products";// antigua URL de prueba
+const URL_API = "https://687afd97abb83744b7ee71c1.mockapi.io/api/v1/productos";
 const contenedor = document.getElementById("productos-container");
 let carrito = [];
 
